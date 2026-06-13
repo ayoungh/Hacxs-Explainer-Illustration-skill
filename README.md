@@ -50,12 +50,34 @@ Default controls:
 
 ---
 
+## Mascot
+
+The default mascot reference bundled with this repo:
+
+![Hacxs mascot](examples/images/mascot.png)
+
+---
+
+## Examples
+
+Example prompts live in [examples/prompts.md](examples/prompts.md). A few included patterns:
+
+- planning a shot list before generating any images
+- generating article illustrations with the default `cyberpunk-low-tech` preset
+- switching to the `minimal-notebook` preset while preserving mascot identity
+- using a smaller mascot treatment for abstract concepts
+- editing an existing image to remove titles or labels
+
+You can copy these directly into Codex and swap in your own article or idea.
+
+---
+
 ## Install
 
 Install with `skills.sh` so usage is attributed to this repo:
 
 ```bash
-npx skills add ayoungh/hacxs-explainer-illustrations
+npx skills add https://github.com/ayoungh/Hacxs-Explainer-Illustration-skill
 ```
 
 Or copy the installable skill package into your Codex skills directory manually:
@@ -70,8 +92,6 @@ Use it in Codex:
 ```text
 Use $hacxs-explainer-illustrations to design and generate several explainer illustrations for this English article in the default cyberpunk-low-tech preset.
 ```
-
-More example prompts live in [examples/prompts.md](examples/prompts.md).
 
 ---
 
