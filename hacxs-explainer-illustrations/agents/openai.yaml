@@ -1,0 +1,6 @@
+interface:
+  display_name: "Hacxs Explainer Illustrations"
+  short_description: "Generate sparse explainer illustrations with a low-tech cyberpunk mascot aesthetic and preset-based style overrides"
+  default_prompt: "Use $hacxs-explainer-illustrations to design and generate several explainer illustrations for this English article in the default cyberpunk-low-tech preset, always using the bundled mascot reference image."
+policy:
+  allow_implicit_invocation: true
