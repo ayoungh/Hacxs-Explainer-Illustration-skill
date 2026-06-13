@@ -80,6 +80,8 @@ Install with `skills.sh` so usage is attributed to this repo:
 npx skills add https://github.com/ayoungh/Hacxs-Explainer-Illustration-skill
 ```
 
+This repo also includes a root-level `skills.sh.json` so the [skills.sh](https://skills.sh) repository page can be customized per the [Customize repo pages](https://www.skills.sh/docs/customize) docs. That file only affects how the repo page is grouped and does not change installation or runtime behavior.
+
 Or copy the installable skill package into your Codex skills directory manually:
 
 ```bash
@@ -98,6 +100,7 @@ Use $hacxs-explainer-illustrations to design and generate several explainer illu
 ## Folder Structure
 
 ```text
+skills.sh.json
 hacxs-explainer-illustrations/
 ├── README.md
 ├── LICENSE
